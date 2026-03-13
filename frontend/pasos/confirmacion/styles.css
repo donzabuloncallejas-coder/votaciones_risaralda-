@@ -1,0 +1,46 @@
+/* Estilos específicos del Paso 3 - Confirmación */
+
+.confirmacion {
+    text-align: center;
+    padding: 50px 40px;
+}
+
+.confirmacion-icon {
+    font-size: 80px;
+    color: var(--color-exito);
+    margin-bottom: 20px;
+}
+
+.confirmacion h2 {
+    font-size: var(--tamanho-titulo-2);
+    color: var(--color-exito);
+    margin-bottom: 15px;
+}
+
+.confirmacion p {
+    font-size: 16px;
+    color: var(--color-gris-oscuro);
+    margin-bottom: 10px;
+}
+
+.confirmacion-subtitle {
+    font-style: italic;
+    color: var(--color-gris);
+    margin-bottom: 30px !important;
+}
+
+.confirmacion-info {
+    background-color: var(--color-gris-claro);
+    padding: 20px;
+    margin: 25px 0;
+    border-left: 4px solid var(--color-exito);
+    text-align: left;
+}
+
+.confirmacion-info p {
+    margin: 8px 0;
+}
+
+.confirmacion-info strong {
+    color: var(--color-azul-institucional);
+}

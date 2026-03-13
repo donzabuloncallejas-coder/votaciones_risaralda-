@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Votación - Comité Departamental de Discapacidad</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header Institucional -->
+    <header class="header">
+        <div class="container header-content">
+            <div class="logo-section">
+                <img src="https://8upload.com/image/35461994b5b62673/images.jpg" alt="Gobernación de Risaralda" class="logo">
+            </div>
+            <div class="title-section">
+                <h1>Sistema de Votación</h1>
+                <h2>Comité Departamental de Discapacidad</h2>
+                <h3>Gobernación de Risaralda</h3>
+            </div>
+        </div>
+    </header>
+
+    <!-- Contenido Principal -->
+    <main class="main">
+        <div class="container">
+            <div class="card">
+                <div class="card-header">
+                    <h2>Ingreso al Sistema de Votación</h2>
+                    <p class="card-description">Ingrese su número de cédula para continuar</p>
+                </div>
+
+                <form id="loginForm" class="form">
+                    <div class="form-group">
+                        <label for="cedula" class="label">Número de Cédula:</label>
+                        <input 
+                            type="text" 
+                            id="cedula" 
+                            name="cedula" 
+                            placeholder="Ejemplo: 107084321"
+                            required
+                            autocomplete="off"
+                            class="input"
+                        >
+                    </div>
+
+                    <button type="submit" class="button button-primary">
+                        Continuar
+                    </button>
+                </form>
+
+                <div id="mensajeError" class="mensaje-error hidden"></div>
+
+                <div class="info-box">
+                    <p><strong>Información importante:</strong></p>
+                    <ul class="info-list">
+                        <li>Sistema seguro y confidencial</li>
+                        <li>Voto único e intransferible</li>
+                        <li>Su información está protegida</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>Gobernación de Risaralda</p>
+            <p>Sistema oficial de votación virtual</p>
+        </div>
+    </footer>
+
+    <script src="js/login.js"></script>
+</body>
+</html>

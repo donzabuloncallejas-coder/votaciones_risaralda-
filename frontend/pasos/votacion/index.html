@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selección de Candidato - Votación Risaralda</title>
+    <link rel="stylesheet" href="../../css/styles.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Institucional -->
+    <header class="header">
+        <div class="container header-content">
+            <div class="logo-section">
+                <img src="https://8upload.com/image/35461994b5b62673/images.jpg" alt="Gobernación de Risaralda" class="logo">
+            </div>
+            <div class="title-section">
+                <h1>Sistema de Votación</h1>
+                <h2>Comité Departamental de Discapacidad</h2>
+                <h3>Gobernación de Risaralda</h3>
+            </div>
+        </div>
+    </header>
+
+    <!-- Contenido Principal - Paso 2 -->
+    <main class="main">
+        <div class="container">
+            <div class="card pantalla">
+                <div class="card-header">
+                    <span class="paso-indicador">Paso 2 de 2</span>
+                    <h2>Seleccione su Candidato</h2>
+                    <p class="card-description">Revise la información y seleccione su candidato de preferencia</p>
+                </div>
+
+                <div class="municipio-info">
+                    <strong>Municipio seleccionado:</strong> <span id="municipioNombre"></span>
+                </div>
+
+                <div id="listaCandidatos" class="lista-candidatos">
+                    <!-- Los candidatos se cargarán dinámicamente -->
+                </div>
+
+                <button id="btnVotar" class="button button-success" disabled>
+                    CONFIRMAR VOTO
+                </button>
+
+                <div class="navigation-buttons">
+                    <button onclick="volverAMunicipio()" class="button button-secondary">
+                        ← Volver al Municipio
+                    </button>
+                </div>
+
+                <div id="mensajeError" class="mensaje-error"></div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>Gobernación de Risaralda</p>
+            <p>Sistema oficial de votación virtual</p>
+        </div>
+    </footer>
+
+    <script>
+        function volverAMunicipio() {
+            window.location.href = '../municipio/';
+        }
+    </script>
+    <script src="../../js/votacion.js"></script>
+</body>
+</html>

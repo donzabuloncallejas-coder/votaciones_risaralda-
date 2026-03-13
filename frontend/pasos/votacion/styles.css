@@ -1,0 +1,75 @@
+/* Estilos específicos del Paso 2 - Selección de Candidato */
+
+.paso-indicador {
+    background-color: var(--color-azul-institucional);
+    color: var(--color-blanco);
+    padding: 6px 16px;
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.municipio-info {
+    background-color: var(--color-gris-claro);
+    padding: 15px;
+    margin-bottom: 25px;
+    font-size: 16px;
+    text-align: center;
+    border-left: 4px solid var(--color-azul-institucional);
+}
+
+.municipio-info strong {
+    color: var(--color-azul-institucional);
+}
+
+.lista-candidatos {
+    margin: 25px 0;
+}
+
+.candidato-card {
+    border: 2px solid var(--color-borde);
+    padding: 20px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    background-color: var(--color-blanco);
+    transition: all 0.3s ease;
+}
+
+.candidato-card:hover {
+    border-color: var(--color-azul-institucional);
+    background-color: var(--color-gris-claro);
+}
+
+.candidato-card.seleccionado {
+    border-color: var(--color-azul-institucional);
+    background-color: #eff6ff;
+    border-width: 3px;
+}
+
+.candidato-info h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--color-negro);
+    margin-bottom: 8px;
+}
+
+.candidato-info p {
+    font-size: 15px;
+    color: var(--color-gris);
+    margin-bottom: 5px;
+}
+
+.candidato-info .discapacidad {
+    display: inline-block;
+    background-color: var(--color-azul-institucional);
+    color: var(--color-blanco);
+    padding: 5px 12px;
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.navigation-buttons {
+    margin-top: 15px;
+    text-align: center;
+}

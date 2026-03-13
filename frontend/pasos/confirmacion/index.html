@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voto Registrado - Votación Risaralda</title>
+    <link rel="stylesheet" href="../../css/styles.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Institucional -->
+    <header class="header">
+        <div class="container header-content">
+            <div class="logo-section">
+                <img src="https://8upload.com/image/35461994b5b62673/images.jpg" alt="Gobernación de Risaralda" class="logo">
+            </div>
+            <div class="title-section">
+                <h1>Sistema de Votación</h1>
+                <h2>Comité Departamental de Discapacidad</h2>
+                <h3>Gobernación de Risaralda</h3>
+            </div>
+        </div>
+    </header>
+
+    <!-- Contenido Principal - Confirmación -->
+    <main class="main">
+        <div class="container">
+            <div class="card pantalla confirmacion">
+                <div class="confirmacion-icon">✓</div>
+                <h2>¡Voto Registrado Exitosamente!</h2>
+                <p>Su voto ha sido registrado correctamente en el sistema.</p>
+                <p class="confirmacion-subtitle">Gracias por participar en el proceso de votación del Comité Departamental de Discapacidad.</p>
+                <div class="confirmacion-info">
+                    <p><strong>Fecha y hora:</strong> <span id="fechaVoto"></span></p>
+                    <p><strong>Comprobante:</strong> Su voto es único e intransferible</p>
+                </div>
+                <button onclick="window.location.href='/'" class="button button-secondary">
+                    Volver al Inicio
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>Gobernación de Risaralda</p>
+            <p>Sistema oficial de votación virtual</p>
+        </div>
+    </footer>
+
+    <script>
+        // Establecer fecha y hora del voto
+        document.getElementById('fechaVoto').textContent = new Date().toLocaleString('es-CO');
+    </script>
+</body>
+</html>

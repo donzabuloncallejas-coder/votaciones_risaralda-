@@ -1,0 +1,57 @@
+/* Estilos específicos del Paso 1 - Selección de Municipio */
+
+.paso-indicador {
+    background-color: var(--color-azul-institucional);
+    color: var(--color-blanco);
+    padding: 6px 16px;
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.info-votante {
+    background-color: var(--color-gris-claro);
+    padding: 20px;
+    margin-bottom: 30px;
+    border-left: 4px solid var(--color-azul-institucional);
+}
+
+.info-votante h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--color-azul-institucional);
+    margin-bottom: 15px;
+}
+
+.info-grid p {
+    font-size: 16px;
+    margin-bottom: 8px;
+    padding: 8px;
+    background-color: var(--color-blanco);
+}
+
+.info-grid strong {
+    color: var(--color-azul-institucional);
+}
+
+.form-section {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.select {
+    width: 100%;
+    padding: 14px 16px;
+    font-size: 16px;
+    font-family: var(--fuente-principal);
+    border: 2px solid var(--color-borde);
+    background-color: var(--color-blanco);
+    color: var(--color-negro);
+    cursor: pointer;
+}
+
+.select:focus {
+    outline: none;
+    border-color: var(--color-azul-institucional);
+}
